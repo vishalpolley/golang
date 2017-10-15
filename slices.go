@@ -4,7 +4,7 @@ func main() {
 fmt.Print("Enter the size of array: ")
 var n int
 fmt.Scanf("%d", &n)
-x := make([]float64, n, 20)
+x := make([]float64, n)
 for i := 0; i < len(x); i++ {
 fmt.Printf("Enter the number at position %d : ", i+1)
 fmt.Scanf("%f", &x[i])
